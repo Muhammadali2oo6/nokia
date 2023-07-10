@@ -1,0 +1,119 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav .up_nav{
+    display: flex;
+    justify-content: right;
+    height: 30px;
+    background-color: #eee;
+    
+}
+.nav .up_nav p{
+    margin-right: 50px;
+    margin-top: 4px;
+    cursor: pointer;
+}
+.down_nav{
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+    margin-bottom: 20px;
+
+}
+.down_nav .logo{
+    margin-top: 10px;
+    cursor: pointer;
+}
+.down_nav .down_catagory{
+    display: flex;
+    gap: 50px;
+    margin-top: 20px;
+    color: rgb(16, 16, 239);
+    font-weight: 300;
+    cursor: pointer;
+}
+.down_nav .down_icon {
+    display: flex;
+    margin-top: 20px;
+    gap: 40px;
+    height: 25px;
+    color: blue;
+    cursor: pointer;
+}
+.header .header_img1{
+    background-image: url(./img/nokia.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height:250px;
+    margin: auto;
+    
+}
+.header .header_img1 h1{
+    color: white;
+    text-align: left;
+    padding-top: 100px;
+    padding-left: 100px;
+    cursor: pointer;
+    font-size: 40px;
+}
+.header .header_lorem p{
+    text-align: left;
+    margin-left: 23%;
+    margin-top: 30px;
+    font-size: 25px;
+    line-height: 37px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.header_img2 {
+    display: flex;
+    justify-content: space-around;
+    margin-top:70px ;
+}
+.header_img2 .img{
+    background-image: url(./img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.header_img2 .img2{
+    background-image: url(./img/2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header_img2 .img3{
+    background-image: url(./img/3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 400px;
+    height: 250px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.header_img2 .h_one .h_text {
+    display: flex;
+    gap: 10px;
+}
+.header_img2 .h_one .h_text p{
+    font-weight: 200;
+    font-size: 25px;
+    cursor: pointer;
+}
+.h_one .about p{
+    text-align: left;
+    margin-top: 10px;
+    font-size: 18px;
+    font-weight: 300;
+    cursor: pointer;
+}

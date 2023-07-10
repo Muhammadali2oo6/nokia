@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.medium_catagory ul{
+    margin-top: 140px;
+    font-size: 22px;
+    font-weight: 200;
+}
+.medium_catagory ul li{
+    list-style: none;
+    margin: 0 20px;
+    display: inline-block;
+    align-items: center;
+    justify-content: space-between;
+    position: relative;
+
+}
+.medium_catagory ul li a{
+    text-decoration: none;
+}
+.medium_catagory ul li::after{
+    content: '';
+    height: 3px;
+    width: 0;
+    background-color: blue;
+    position: absolute;
+    left: 0;
+    bottom: -10px;
+    transition: 0.5s;
+}
+.medium_catagory ul li:hover::after{
+    width: 100%;
+}
+.hr{
+    margin-top: 20px;
+    
+}
+.many_text .one_text .bosh{
+    font-size: 30px;
+    font-weight: 400;
+    margin: 50px 0 0 35px;
+}
+.many_text .one_text .bosh_l{
+    margin: 50px 0 0 35px;
+    font-size: 18px;
+   line-height: 28px;
+    font-weight: 200;
+}
+.alotoff{
+    margin: 50px 0 0 0;
+}
+.alotoff .first{
+    display: flex;
+    gap: 5px;
+}
+.alotoff .first h2{
+    font-weight: 200;
+    cursor: pointer;
+}
+.alotoff .second p{
+    font-size: 18px;
+   line-height: 28px;
+    font-weight: 200;
+    cursor: pointer;
+}
+.easy{
+    display: flex;
+    justify-content: space-around;
+}
+.hard{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.linear{
+    width: 100%;
+    height: 300px;
+    background: linear-gradient(90deg, rgba(208,33,40,1) 0%, rgba(215,125,28,1) 43%, rgba(56,123,198,1) 100%);
+}
+.h_one .h_text {
+    display: flex;
+    gap: 10px;
+    cursor: pointer;
+}
+.h_one .img{
+    background-image: url(./img/mag-datasheet_0.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px;
+    height: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h_one .img2{
+    background-image: url(./img/gettyimages-533765031.jpg.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 420px;
+    height: 220px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.h_one .img3{
+    background-image: url(./img/1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 320px;
+    height: 220px;
+    border-radius: 10px 0 0 10px;
+    cursor: pointer;
+}
+ .h_one .h_text p{
+    font-weight: 200;
+    font-size: 25px;
+    cursor: pointer;
+}
+.child{
+    display: flex;
+    justify-content: right;
+    gap: 20px;
+    margin-top: 2%;
+}
+.icon{
+    margin: 130px 0 0 140px;
+}
